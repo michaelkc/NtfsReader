@@ -28,3 +28,8 @@ steps:
   inputs:
     command: 'build'
     projects: '**/*.csproj'
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(Pipeline.Workspace)'
+    artifact: 'build output'
+    publishLocation: 'pipeline'
