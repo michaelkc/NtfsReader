@@ -3,9 +3,12 @@
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<PackageId>Michaelkc.NtfsReader</PackageId>
-		<Version>0.0.2</Version>
+		<Version>0.0.3</Version>
 		<Authors>Michael Christensen</Authors>
 		<Company>-</Company>
+		<RepositoryUrl>https://github.com/michaelkc/NtfsReader</RepositoryUrl>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 	    <PackageLicenseExpression>LGPL-2.1-or-later</PackageLicenseExpression>
 	</PropertyGroup>
 </Project>
