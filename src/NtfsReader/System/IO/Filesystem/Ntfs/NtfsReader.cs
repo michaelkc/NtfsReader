@@ -1002,8 +1002,8 @@ namespace System.IO.Filesystem.Ntfs
                                 _standardInformations[nodeIndex] =
                                     new StandardInformation(
                                         attributeStandardInformation->CreationTime,
-                                        attributeStandardInformation->FileChangeTime,
-                                        attributeStandardInformation->LastAccessTime
+                                        attributeStandardInformation->LastAccessTime,
+                                        attributeStandardInformation->FileChangeTime
                                     );
 
                             break;
